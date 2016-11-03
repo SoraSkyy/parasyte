@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000012675359848}
   - 212: {fileID: 212000014045780740}
   - 61: {fileID: 61000010955151716}
-  - 114: {fileID: 114000013668791388}
+  - 114: {fileID: 114000010666395080}
   m_Layer: 0
   m_Name: fireElement
   m_TagString: Untagged
@@ -56,7 +56,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3, y: 3}
---- !u!114 &114000013668791388
+--- !u!114 &114000010666395080
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010906768080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6945cb4f93e557145a109d2f0d6f1578, type: 3}
+  m_Script: {fileID: 11500000, guid: a8778e6fa74eaee42b7859d6c3fb7671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  element: fireMelee
+  currentElement: 2
 --- !u!212 &212000014045780740
 SpriteRenderer:
   m_ObjectHideFlags: 1

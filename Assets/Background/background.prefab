@@ -23,7 +23,7 @@ GameObject:
   - 61: {fileID: 61000010765769120}
   m_Layer: 0
   m_Name: wall_bottom
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ GameObject:
   - 61: {fileID: 61000010353370086}
   m_Layer: 0
   m_Name: wall_left
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - 61: {fileID: 61000013197244052}
   m_Layer: 0
   m_Name: wall_top_right
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +105,7 @@ GameObject:
   - 61: {fileID: 61000013687168302}
   m_Layer: 0
   m_Name: wall_top_left
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - 61: {fileID: 61000010920010654}
   m_Layer: 0
   m_Name: wall_right
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

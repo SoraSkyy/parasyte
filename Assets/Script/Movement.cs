@@ -18,9 +18,9 @@ public class Movement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.W)) {
-				transform.position += new Vector3 (0, 1, 0) * Time.deltaTime * speed;
+            transform.position += new Vector3 (0, 1, 0) * Time.deltaTime * speed;
 		} else if (Input.GetKey (KeyCode.S)) {
-				transform.position += new Vector3 (0, -1, 0) * Time.deltaTime * speed;
+			transform.position += new Vector3 (0, -1, 0) * Time.deltaTime * speed;
 		};
 
 		if (Input.GetKey (KeyCode.D)) {
@@ -47,12 +47,15 @@ public class Movement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D colliderThing) { //returns object which you have collided with
-		itemPickUp = colliderThing.gameObject;
-		itemList.Add (itemPickUp);
+        if(colliderThing.tag == "item")
+        {
+            itemPickUp = colliderThing.gameObject;
+
+            itemList.Add(itemPickUp);
+        }
 	}
 
 	void OnTriggerExit2D(Collider2D colliderThing) {
 		itemList.Remove (colliderThing.gameObject);
-		itemPickUp = null;
 	}
 }

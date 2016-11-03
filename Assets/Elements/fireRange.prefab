@@ -20,7 +20,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012480886384}
   - 212: {fileID: 212000011365767384}
-  - 114: {fileID: 114000010831189130}
+  - 61: {fileID: 61000011025471920}
+  - 114: {fileID: 114000013872465522}
   m_Layer: 0
   m_Name: fireRange
   m_TagString: Untagged
@@ -41,7 +42,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010831189130
+--- !u!61 &61000011025471920
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013395931672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 9.4, y: 6}
+--- !u!114 &114000013872465522
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -49,10 +64,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013395931672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6945cb4f93e557145a109d2f0d6f1578, type: 3}
+  m_Script: {fileID: 11500000, guid: a8778e6fa74eaee42b7859d6c3fb7671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  element: fireRange
+  currentElement: 3
 --- !u!212 &212000011365767384
 SpriteRenderer:
   m_ObjectHideFlags: 1
